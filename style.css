@@ -5,6 +5,7 @@ body {
   background-color: #25262a;
 }
 
+
 .nav-section {
   display: flex;
   position: fixed;
@@ -14,10 +15,6 @@ body {
   backdrop-filter: blur(4px);
 }
 
-@media screen and (min-width: 720px) {
-  .nav-section {
-  }
-}
 
 a {
   text-decoration: none;
@@ -36,6 +33,7 @@ a {
     margin-left: 20px;
   }
 }
+
 
 strong {
   color: white;
@@ -57,7 +55,7 @@ a:hover,
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 10px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -158,6 +156,7 @@ ul {
   color: #25262a;
   font-size: x-small;
   width: max-content;
+  box-shadow: #25262a82 1px 6px 5px;
 }
 
 .intro-para {
@@ -171,7 +170,7 @@ ul {
   border-radius: 10px 100px / 120px;
   background-color: #25262a;
   border: #64f4aa solid;
-  box-shadow: #252424 10px 5px 5px;
+  box-shadow: #25262a82 10px 8px 4px;
   margin-bottom: 20px;
 }
 
@@ -228,6 +227,14 @@ span {
 @media screen and (min-width: 720px) {
   .about-me-text {
     margin: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about-me-text {
+    margin: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
   }
 }
 
@@ -381,4 +388,8 @@ span {
 
 .footer-ul {
   display: flex;
+}
+
+.footer-contact-icons{
+  padding: 10px;
 }
