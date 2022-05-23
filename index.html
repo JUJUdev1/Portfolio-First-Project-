@@ -6,50 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/db522c8f88.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-  <header class="nav-section">
-    <a href="#my-profil">
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">
       <p id="name-left"><strong>Julien</strong> Sarda</p>
     </a>
+    <a href="#about-me" style="font-size: 12px;">About Me</a>
+    <a href="#my-skills-title" style="font-size: 12px;">My Skills</a>
+    <a href="#my-works" style="font-size: 12px;">My Works</a>
+    <a href="#my-contact" style="font-size: 12px;">Contact</a>
     <div class="dropdown">
-      <button class="dropbtn">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-      <nav>
-        <div class="dropdown-content">
-          <ul>
-            <a href="#about-me">
-              <li class="text-nav">About Me</li>
-              <div class="icons"><i class="fa-solid fa-user"></i></div>
-            </a>
-            <a href="#my-skills-title">
-              <li class="text-nav">My Skills</li>
-              <div class="icons"><i class="fa-solid fa-lightbulb"></i></div>
-            </a>
-            <a href="#my-works">
-              <li class="text-nav">My Works</li>
-              <div class="icons"><i class="fa-solid fa-briefcase"></i></div>
-            </a>
-            <a href="#my-contact">
-              <li class="text-nav">Contact</li>
-              <div class="icons"><i class="fa-solid fa-comment"></i></div>
-            </a>
-          </ul>
-        </div>
-      </nav>
     </div>
-    <nav class="contact-icons">
-      <a href="mailto:juliensarda1408@gmail.com"><i class="fa-solid fa-envelope"></i>
-      </a>
-      <a href="https://github.com/JUJUdev1?tab=repositories"><i class="fa-brands fa-github"></i></a>
-    </nav>
-  </header>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
   <section id="my-profil">
     <div class="text-profil">
       <h3 class="profil-status">Front-End Developer</h3>
@@ -60,11 +35,12 @@
     </div>
     <div class="images-profil"><img class="img-profil" src="" alt=""></div>
   </section>
-  <section id="about-me" >
+  <section id="about-me">
     <div>
       <h1>About <span>Me</span></h1>
     </div>
-    <p class="about-me-text" class="projet" data-aos="fade-up-right">Quid enim tam absurdum quam delectari multis inanimis rebus, ut honore, ut gloria, ut
+    <p class="about-me-text" class="projet" data-aos="fade-up-right">Quid enim tam absurdum quam delectari multis
+      inanimis rebus, ut honore, ut gloria, ut
       aedificio, ut vestitu cultuque corporis, animante virtute praedito, eo qui vel amare vel, ut ita dicam, redamare
       possit, non admodum delectari? Nihil est enim remuneratione benevolentiae, nihil vicissitudine studiorum
       officiorumque <br>
@@ -73,9 +49,9 @@
       iura permisit. <br>
     </p>
   </section>
-  <section id="my-skills-title" >
+  <section id="my-skills-title">
     <div>
-      <h1 class="title-My-skills" >My <span>Skills</span></h1>
+      <h1>My <span>Skills</span></h1>
     </div>
   </section>
   <section class="my-skills-logo">
@@ -89,18 +65,18 @@
     </div>
     <div class="projet" data-aos="flip-right">Coming Soon</div>
     <div class="projet" data-aos="flip-right">Coming Soon</div>
-    <div class="projet"data-aos="flip-right">Coming Soon</div>
-    <div class="projet"data-aos="flip-right">Coming Soon</div>
-    <div class="projet"data-aos="flip-right">Coming Soon</div>
-    <div class="projet"data-aos="flip-right">Coming Soon</div>
+    <div class="projet" data-aos="flip-right">Coming Soon</div>
+    <div class="projet" data-aos="flip-right">Coming Soon</div>
+    <div class="projet" data-aos="flip-right">Coming Soon</div>
+    <div class="projet" data-aos="flip-right">Coming Soon</div>
   </section>
   <section id="my-contact">
     <div>
       <h1 class="title-my-contact">Contact <span>Me</span></h1>
     </div>
-    <div class="form-box" >
+    <div class="form-box">
       <form method="post" action="traitement.php">
-        <p><input type="text" name="pseudo" id="form-style" placeholder="Name" ></p>
+        <p><input type="text" name="pseudo" id="form-style" placeholder="Name"></p>
       </form>
       <form method="post" action="traitement.php">
         <p><input type="text" name="email" id="form-style" placeholder="Email Adress"></p>
@@ -115,26 +91,18 @@
         <button class="button">SEND</button>
       </div>
   </section>
-  <footer class="footer-nav">
-    <div class="footer-contact-icons"><a href="mailto:juliensarda1408@gmail.com"><i class="fa-solid fa-envelope"></i>
-      </a>
-      <a href="https://github.com/JUJUdev1?tab=repositories"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">
-        <i class="fa-solid fa-globe"></i>
-      </button>
-      <nav>
-        <div class="dropdown-content">
-          <ul class="footer-ul">
-            <a href="index.html">Eng</a>
-            <a href="fr.html">Fr</a>
-            <a href="eng">Kr</a>
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <footer>
   </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init()
