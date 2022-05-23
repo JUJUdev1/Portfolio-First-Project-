@@ -1,388 +1,384 @@
 body {
-    margin: 0;
-    color: white;
-    font-family: Arial, "Helvetica neue", sans-serif;
-    background-color: #25262a;
-  }
-  
+  margin: 0;
+  color: white;
+  font-family: Arial, "Helvetica neue", sans-serif;
+  background-color: #25262a;
+}
+
+.nav-section {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(4px);
+}
+
+@media screen and (min-width: 720px) {
   .nav-section {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    backdrop-filter: blur(4px);
   }
-  
-  @media screen and (min-width: 720px) {
-    .nav-section {
-    }
-  }
-  
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#name-left {
+  font-size: larger;
+  color: #a4a4a5;
+  margin: 10px;
+}
+
+@media screen and (min-width: 720px) {
   #name-left {
-    font-size: larger;
-    color: #a4a4a5;
-    margin: 10px;
+    display: flex;
+    margin-left: 20px;
   }
-  
-  @media screen and (min-width: 720px) {
-    #name-left {
-      display: flex;
-      margin-left: 20px;
-    }
+}
+
+strong {
+  color: white;
+}
+
+a:hover,
+#name-left:hover {
+  color: #64f4aa;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* understand it  */
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+/* understand it */
+
+@media screen and (min-width: 720px) {
+  .dropbtn {
+    display: none;
   }
-  
-  strong {
-    color: white;
-  }
-  
-  a:hover,
-  #name-left:hover {
-    color: #64f4aa;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  /* understand it  */
-  
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  /* understand it */
-  
-  @media screen and (min-width: 720px) {
-    .dropbtn {
-      display: none;
-    }
-  }
-  
-  nav {
-    width: 100%;
-  }
-  
+}
+
+nav {
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  background-color: rgb(12, 12, 12, 0.1);
+}
+/* understand it */
+
+@media screen and (min-width: 720px) {
   .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 1;
-    background-color: rgb(12, 12, 12, 0.1);
+    display: flex;
+    position: inherit;
   }
-  /* understand it */
-  
-  @media screen and (min-width: 720px) {
-    .dropdown-content {
-      display: flex;
-      position: inherit;
-    }
+}
+
+@media screen and (min-width: 720px) {
+  .dropdown-content {
+    background-color: rgb(12, 12, 12, 0);
   }
-  
-  @media screen and (min-width: 720px) {
-    .dropdown-content {
-      background-color: rgb(12, 12, 12, 0);
-    }
-  }
-  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/* understand it */
+
+@media screen and (min-width: 720px) {
   ul {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    margin-top: auto;
-    margin-bottom: auto;
+    display: flex;
   }
-  /* understand it */
-  
-  @media screen and (min-width: 720px) {
-    ul {
-      display: flex;
-    }
-  }
-  
-  .dropdown-content a {
-    float: none;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  /* understand it  */
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .fa-solid,
-  .fa-brands {
-    padding: 10px;
-  }
-  
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* understand it  */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.fa-solid,
+.fa-brands {
+  padding: 10px;
+}
+
+#my-profil {
+  display: flex;
+  background-color: #2d2f33;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 720px) {
   #my-profil {
-    display: flex;
-    background-color: #2d2f33;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
   }
-  
-  @media screen and (min-width: 720px) {
-    #my-profil {
-      flex-direction: row;
-    }
-  }
-  
+}
+
+.text-profil {
+  margin: 60px 10px 10px;
+}
+
+@media screen and (min-width: 720px) {
   .text-profil {
-    margin: 60px 10px 10px;
+    margin: 50px 20px 20px 20px;
+    width: 50%;
   }
-  
-  @media screen and (min-width: 720px) {
-    .text-profil {
-      margin: 50px 20px 20px 20px;
-      width: 50%;
-    }
-  }
-  
-  .profil-status {
-    background-color: #64f4aa;
-    color: #25262a;
-    font-size: x-small;
-    width: max-content;
-  }
-  
-  .intro-para {
-    font-size: x-small;
-    color: #a4a4a5;
-  }
-  
+}
+
+.profil-status {
+  background-color: #64f4aa;
+  color: #25262a;
+  font-size: x-small;
+  width: max-content;
+}
+
+.intro-para {
+  font-size: x-small;
+  color: #a4a4a5;
+}
+
+.images-profil {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px 100px / 120px;
+  background-color: #25262a;
+  border: #64f4aa solid;
+  box-shadow: #252424 10px 5px 5px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 720px) {
   .images-profil {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px 100px / 120px;
-    background-color: #25262a;
-    border: #64f4aa solid;
-    box-shadow: #252424 10px 5px 5px;
-    margin-bottom: 20px;
+    margin: 80px 50px 20px;
+    width: 300px;
+    height: 250px;
   }
-  
-  @media screen and (min-width: 720px) {
-    .images-profil {
-      margin: 80px 50px 20px;
-      width: 300px;
-      height: 250px;
-    }
-  }
-  
-  
+}
+
+.contact-icons {
+  display: none;
+}
+
+@media screen and (min-width: 720px) {
   .contact-icons {
-    display: none;
-  }
-  
-  @media screen and (min-width: 720px) {
-    .contact-icons {
-      display: flex;
-      width: auto;
-      margin-right: 20px;
-    }
-  }
-  
-  @media screen and (min-width: 720px) {
-    .icons {
-      display: none;
-    }
-  }
-  
-  .text-nav {
-    font-size: small;
-    display: none;
-  }
-  @media screen and (min-width: 720px) {
-    .text-nav {
-      display: flex;
-    }
-  }
-  
-  #about-me {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  span {
-    color: #64f4aa;
-  }
-  
-  .about-me-text {
-    margin: 10px;
-  }
-  
-  @media screen and (min-width: 720px) {
-    .about-me-text {
-      margin: 20px;
-    }
-  }
-  
-  #my-skills-title {
-    display: flex;
-    align-items: center;
-    background-color: #2d2f33;
-    flex-direction: column;
-  }
-  
-  .my-skills-logo {
-    background-color: #2d2f33;
-    display: flex;
-    justify-content: center;
-  }
-  
-  @media screen and (min-width: 720px) {
-    .my-skills-logo {
-      align-items: center;
-    }
-  }
-  
-  .logo-html {
-    color: #fb564e;
-    margin-left: 50px;
-    background-color: #252424;
-    border-radius: 50% 20% / 10% 40%;
-    width: fit-content;
-    height: fit-content;
-    box-shadow: #25262a82 5px 3px 0px;
-  }
-  
-  .logo-css {
-    color: #6172fb;
-    margin: 50px;
-    background-color: #252424;
-    border-radius: 10px 100px / 120px;
-    width: fit-content;
-    height: fit-content;
-    box-shadow: #25262a82 5px 3px 0px;
-  }
-  
-  .logo-javascript {
-    color: #64f4aa;
-    margin-right: 50px;
-    background-color: #252424;
-    border-radius: 50%;
-    width: fit-content;
-    height: fit-content;
-    box-shadow: #25262a82 5px 3px 0px;
-  }
-  
-  #my-works {
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
-    grid-template-rows: 100px 400px 400px 400px 400px 400px 400px;
-    justify-items: center;
-    gap: 20px;
-  }
-  
-  @media screen and (min-width: 720px) {
-    #my-works {
-      grid-template-columns: repeat(2, 50%);
-      grid-template-rows: 100px 300px 300px 300px;
-      gap: 0;
-    }
-  }
-  
-  .title-my-works {
-    text-align: center;
-  }
-  
-  @media screen and (min-width: 720px) {
-    .title-my-works {
-      grid-column-start: 1;
-      grid-column-end: 3;
-    }
-  }
-  
-  .projet {
-    border: #64f4aa solid;
-    border-radius: 10px;
-    background-color: #2d2f33;
-    width: 90%;
-    height: 90%;
-    text-align: center;
-  }
-  
-  
-  #my-contact{
-    background-color: #2d2f33;
-  }
-  
-  #message-form {
-    background-color: #252424;
-    width: 100%;
-    height: 100px;
-    color: white;
-    text-align: center;
-    width: max-content;
-    align-self: self-end;
+    width: auto;
     margin-right: 20px;
   }
-  
-  #form-style {
-    width: 100%;
-    padding: 10px 0;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #666;
-    color: #ddd;
-    font-size: 14px;
-    text-transform: uppercase;
-    outline: none;
-    transition: border-color .2s;
+}
+
+@media screen and (min-width: 720px) {
+  .icons {
+    display: none;
   }
-  
-  ::placeholder {
-    color: white;
-  }
-  
-  .form-button{
-    margin-bottom: 0;
-    text-align: right;
-    
-  }
-  
-  .button:hover{
-    color: #64f4aa;
-  }
-  
-  .button{
-    border: none;
-    color: white;
-    background-color: #2d2f33;
-  }
-  
-  .title-my-contact{
-    text-align: center;
-    padding-top: 20px;
-  }
-  
-  .form-box{
-    flex: 1;
-    padding: 50px;
-    
-  }
-  
-  .footer-nav{
+}
+
+.text-nav {
+  font-size: small;
+  display: none;
+}
+@media screen and (min-width: 720px) {
+  .text-nav {
     display: flex;
-    justify-content: space-between;
+  }
+}
+
+#about-me {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+span {
+  color: #64f4aa;
+}
+
+.about-me-text {
+  margin: 10px;
+}
+
+@media screen and (min-width: 720px) {
+  .about-me-text {
+    margin: 20px;
+  }
+}
+
+#my-skills-title {
+  display: flex;
+  align-items: center;
+  background-color: #2d2f33;
+  flex-direction: column;
+}
+
+.my-skills-logo {
+  background-color: #2d2f33;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 720px) {
+  .my-skills-logo {
     align-items: center;
   }
-  
-  .footer-ul{
-    display: flex;
+}
+
+.logo-html {
+  color: #fb564e;
+  margin-left: 50px;
+  background-color: #252424;
+  border-radius: 50% 20% / 10% 40%;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: #25262a82 5px 3px 0px;
+}
+
+.logo-css {
+  color: #6172fb;
+  margin: 50px;
+  background-color: #252424;
+  border-radius: 10px 100px / 120px;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: #25262a82 5px 3px 0px;
+}
+
+.logo-javascript {
+  color: #64f4aa;
+  margin-right: 50px;
+  background-color: #252424;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: #25262a82 5px 3px 0px;
+}
+
+#my-works {
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: 100px 400px 400px 400px 400px 400px 400px;
+  justify-items: center;
+  gap: 20px;
+}
+
+@media screen and (min-width: 720px) {
+  #my-works {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100px 300px 300px 300px;
+    gap: 0;
   }
+}
+
+.title-my-works {
+  text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+  .title-my-works {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+.projet {
+  border: #64f4aa solid;
+  border-radius: 10px;
+  background-color: #2d2f33;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+}
+
+#my-contact {
+  background-color: #2d2f33;
+}
+
+#message-form {
+  background-color: #252424;
+  width: 100%;
+  height: 100px;
+  color: white;
+  text-align: center;
+  width: max-content;
+  align-self: self-end;
+  margin-right: 20px;
+}
+
+#form-style {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+::placeholder {
+  color: white;
+}
+
+.form-button {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.button:hover {
+  color: #64f4aa;
+}
+
+.button {
+  border: none;
+  color: white;
+  background-color: #2d2f33;
+}
+
+.title-my-contact {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.form-box {
+  flex: 1;
+  padding: 50px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-ul {
+  display: flex;
+}
