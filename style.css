@@ -191,7 +191,7 @@ strong {
 
 .images-profil {
   width: 200px;
-  height: 200px;
+  height: 40vh;
   border-radius: 10px 100px / 120px;
   background-color: #25262a;
   border: #64f4aa solid;
@@ -224,7 +224,7 @@ strong {
   height:100%;
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 0.95rem;
   text-align: start;
 
 }
