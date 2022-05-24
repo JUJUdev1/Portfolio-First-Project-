@@ -69,10 +69,10 @@ body {
   text-align: left;
 }
 
-.topnav a:hover,#name-left:hover,
+.topnav a:hover,
+#name-left:hover,
 .dropdown:hover .dropbtn {
-  color:  #64f4aa;
-  
+  color: #64f4aa;
 }
 
 .dropdown-content a:hover {
@@ -88,10 +88,9 @@ body {
   .topnav {
     display: block;
   }
-  }
+}
 
 @media screen and (max-width: 600px) {
-
   .topnav a:not(:first-child),
   .dropdown .dropbtn {
     display: none;
@@ -136,10 +135,10 @@ body {
   }
 }
 
-  #name-left {
-    font-size: larger;
-    color: #a4a4a5;
-    margin: 10px;
+#name-left {
+  font-size: larger;
+  color: #a4a4a5;
+  margin: 10px;
 }
 
 strong {
@@ -162,7 +161,7 @@ strong {
 
 .text-profil {
   margin: 80px 10px 10px;
-  padding: 14px 16px
+  padding: 14px 16px;
 }
 
 @media screen and (min-width: 600px) {
@@ -186,7 +185,7 @@ strong {
 
 .intro-para {
   color: #a4a4a5;
-  font-size: .95rem;
+  font-size: 0.95rem;
   margin-top: 40px;
 }
 
@@ -212,7 +211,7 @@ strong {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 14px 16px
+  padding: 14px 16px;
 }
 
 .about-me-text {
@@ -234,8 +233,6 @@ strong {
 span {
   color: #64f4aa;
 }
-
-
 
 #my-skills-title {
   display: flex;
@@ -308,7 +305,7 @@ span {
   grid-template-rows: 100px 400px 400px 400px 400px 400px 400px;
   justify-items: center;
   gap: 20px;
-  padding: 14px 16px
+  padding: 14px 16px;
 }
 
 @media screen and (min-width: 600px) {
@@ -382,24 +379,3 @@ span {
   align-self: self-end;
   margin-right: 20px;
 }
-
-
-
-
-
-
-
-
-/* .footer-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-ul {
-  display: flex;
-}
-
-.footer-contact-icons {
-  padding: 10px;
-}  */
