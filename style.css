@@ -217,16 +217,12 @@ strong {
 .about-me-text {
   margin: 10px;
 }
-@media screen and (min-width: 600px) {
-  .about-me-text {
-    margin: 20px;
-  }
-}
+
 @media screen and (min-width: 600px) {
   .about-me-text {
     margin: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
