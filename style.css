@@ -209,13 +209,24 @@ strong {
 
 #about-me {
   display: flex;
-  align-items: center;
-  flex-direction: column;
   padding: 14px 16px;
+  height: 100vh;
+  text-align: center;
+}
+
+.about-me-container{
+  display: flex;
+  flex-direction: column;
 }
 
 .about-me-text {
   margin: 10px;
+  height:100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  text-align: start;
+
 }
 
 @media screen and (min-width: 600px) {
