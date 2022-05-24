@@ -190,21 +190,24 @@ strong {
 }
 
 .images-profil {
-  height: 40vh;
   border-radius: 50% 20% / 10% 40%;
-  background-color: #25262a;
   border: #64f4aa solid;
   box-shadow: #25262a82 10px 8px 4px;
-  margin-bottom: 50px;
-  margin-top: 20px;
+  align-items: flex-end;
+  display: flex;
+  height: 40vh;
+  justify-content: flex-end;
+  margin: 2rem 0;
+  position: relative;
+  width: 50%;
 }
 
 .img-profil {
   flex: 1 1;
   height: 100%;
-  object-fit: contain;
   z-index: 1;
   border-radius: 50% 20% / 10% 40%;
+  width: 100%;
 }
 
 @media screen and (min-width: 600px) {
