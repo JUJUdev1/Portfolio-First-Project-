@@ -255,7 +255,6 @@ span {
   color: #fb564e;
   margin: 20px;
   display: flex;
-  width: 100%;
   align-items: center;
 }
 
@@ -263,7 +262,6 @@ span {
   color: #6172fb;
   margin: 20px;
   display: flex;
-  width: 100%;
   align-items: center;
 }
 
@@ -271,7 +269,6 @@ span {
   color: #64f4aa;
   margin: 20px;
   display: flex;
-  width: 100%;
   align-items: center;
 }
 
@@ -386,7 +383,6 @@ p {
 .skill {
   background-color: #64f4aa;
   color: white;
-  padding: 1%;
   text-align: right;
   border-radius: 15px;
 }
