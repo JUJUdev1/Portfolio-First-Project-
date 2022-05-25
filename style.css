@@ -221,6 +221,7 @@ strong {
   display: flex;
   padding: 14px 16px;
   text-align: center;
+  min-height: 100vh;
 }
 
 .about-me-container {
