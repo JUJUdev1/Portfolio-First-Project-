@@ -412,4 +412,10 @@ p {
 
 a{
   text-decoration: none;
+  outline-color: transparent;
+  display: block;
+}
+
+a:focus {
+  background-color: rgba(0, 0, 0, .5);
 }
