@@ -236,6 +236,7 @@ span {
   min-height: 100vh;
   background-color: #2d2f33;
   justify-content: center;
+  align-items: center;
 }
 
 #my-skills-title {
@@ -248,6 +249,7 @@ span {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 }
 
 @media screen and (min-width: 600px) {
@@ -280,11 +282,9 @@ span {
 .fa-solid,
 .fa-brands {
   padding: 10px;
-  font-size: xx-large;
 }
 
 .fa-solid {
-  padding: 10px;
   color:white;
   font-size: xx-large;
   padding-top:100px;
@@ -408,13 +408,4 @@ p {
 
 .js {
   width: 10%;
-}
-
-a{
-  text-decoration: none;
-}
-
-i{
-  background-clip: content-box;
-  color: transparent;
 }
