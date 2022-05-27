@@ -412,6 +412,9 @@ p {
 
 a{
   text-decoration: none;
+}
+
+i{
   background-clip: content-box;
   color: transparent;
 }
