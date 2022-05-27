@@ -290,6 +290,10 @@ span {
   text-decoration: none;
 }
 
+.fa-solid:hover{
+    color: #64f4aa;
+}
+
 
 .title-my-works {
   text-align: center;
@@ -304,8 +308,7 @@ span {
 
 #my-works {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-evenly;
   padding: 14px 16px;
   flex-direction: column;
   align-items:center;
@@ -316,12 +319,12 @@ span {
   display: flex;
   width:100%;
   justify-content:space-between;
-  height:100vh;
-  align-items:center
+  align-items:center;
+  height: 50vh;
 }
 
 button{
-  color:#64f4aa;
+  color:#ffffff;
   background-color:#25262a;
   border:none;
 }
@@ -339,11 +342,8 @@ button{
   border-radius: 10px;
   background-color: #2d2f33;
   width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height:50%;
-  
+  height:100%;
+  text-align: center;
 }
 
 #my-contact {
@@ -365,7 +365,7 @@ button{
   text-align: right;
 }
 
-.button:hover {
+button:hover {
   color: #64f4aa;
 }
 
@@ -422,4 +422,8 @@ p {
 
 .js {
   width: 10%;
+}
+
+a{
+    text-decoration: none;
 }
