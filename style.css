@@ -285,13 +285,10 @@ span {
 
 .fa-solid {
   padding: 10px;
-  color:white;
+  color: white;
   font-size: xx-large;
-  padding-top:100px;
-  padding-bottom:50px;
   text-decoration: none;
 }
-
 
 .title-my-works {
   text-align: center;
@@ -410,12 +407,6 @@ p {
   width: 10%;
 }
 
-a{
+a {
   text-decoration: none;
-  outline-color: transparent;
-  display: block;
-}
-
-a:focus {
-  background-color: rgba(0, 0, 0, .5);
 }
