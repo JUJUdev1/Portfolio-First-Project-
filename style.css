@@ -108,7 +108,6 @@ strong {
   font-size: x-small;
   width: max-content;
   box-shadow: #25262a82 1px 6px 5px;
-  font-family: "Roboto";
   font-style: italic;
   border-radius: 5px;
   padding: 5px;
@@ -408,7 +407,6 @@ button:hover {
   border-bottom: 1px solid #666;
   color: #ddd;
   font-size: 14px;
-  text-transform: uppercase;
   outline: none;
   transition: border-color 0.2s;
 }
