@@ -19,23 +19,42 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
-      <a href="#my-profil" class="active">
-        <p id="name-left"><strong>Julien</strong> Sarda</p>
-      </a>
-      <a onclick="myFunction()" href="#about-me">About Me</a>
-      <a onclick="myFunction()" href="#my-skills">My Skills</a>
-      <a onclick="myFunction()" href="#my-works">My Works</a>
-      <a onclick="myFunction()" href="#my-contact">Contact</a>
-      <div class="dropdown"></div>
-      <a
-        href="javascript:void(0);"
-        style="font-size: 15px; margin: 10px"
-        class="icon"
-        onclick="myFunction()"
-        >&#9776;</a
-      >
-    </div>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+              <a class="sarda" href="#"><strong>Julien</strong> Sarda</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">My Skills</a></li>
+                    <li><a href="#">My Works</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+      
+      <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+    </nav>
     <section id="my-profil">
       <div class="text-profil">
         <h3 class="profil-status">Front-End Developer</h3>
