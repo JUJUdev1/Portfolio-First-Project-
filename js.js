@@ -1,36 +1,27 @@
-const collapsibles = document.querySelectorAll(".collapsible");
-collapsibles.forEach(item =>
-  item.addEventListener("click", function () {
-    this.classList.toggle("collapsible--expanded");
-    console.log("jhjh");
-  })
-);
-
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs((slideIndex += n));
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("projet");
-  if (n > x.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = x.length;
-  }
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex - 1].style.display = "block";
-}
-
-$(".navTrigger").click(function () {
-  $(this).toggleClass("active");
+// navbar
+$('.navTrigger').click(function () {
+  $(this).toggleClass('active');
   console.log("Clicked menu");
   $("#mainListDiv").toggleClass("show_list");
   $("#mainListDiv").fadeIn();
+
 });
+// navbar
+
+// var slideIndex = 1;
+// showDivs(slideIndex);
+
+// function plusDivs(n) {
+//   showDivs(slideIndex += n);
+// }
+
+// function showDivs(n) {
+//   var i;
+//   var x = document.getElementsByClassName("projet");
+//   if (n > x.length) {slideIndex = 1}
+//   if (n < 1) {slideIndex = x.length} ;
+//   for (i = 0; i < x.length; i++) {
+//     x[i].style.display = "none";
+//   }
+//   x[slideIndex-1].style.display = "block";
+// }
