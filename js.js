@@ -6,6 +6,10 @@ $('.navTrigger').click(function () {
   $("#mainListDiv").fadeIn();
 
 });
+
+window.setTimeout(function(){
+  $('.skill-progress').addClass("go");
+}, 1000);
 // navbar
 
 // var slideIndex = 1;

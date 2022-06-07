@@ -1,0 +1,19 @@
+{
+  "name": "jujudev1.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "scripts": {
+    "sass": "sass --watch ./main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUJUdev1/JUJUdev1.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JUJUdev1/JUJUdev1.github.io/issues"
+  },
+  "homepage": "https://github.com/JUJUdev1/JUJUdev1.github.io#readme"
+}
