@@ -149,6 +149,7 @@ body {
 .affix {
   padding: 0;
   background-color: #111;
+  z-index: 10000;
 }
 
 .myH2 {
