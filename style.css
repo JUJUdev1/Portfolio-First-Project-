@@ -246,14 +246,13 @@ span {
 
 /*section 4 */
 .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  display: flex;
   margin: 4rem 5vw;
   padding: 0;
   align-items: center;
   min-height: 100vh;
-  
+  justify-content: center;
+  flex-direction: column;
 }
 
 .card {
@@ -265,7 +264,12 @@ span {
   border: #64f4aa solid;
   background-color: #2d2f33;
   list-style-type: none;
-  height: 50%;
+  height: 50vh;
+  width: 90%;
+}
+
+.title-my-works{
+  font-size: 18px;
 }
 
 .card__image {      
@@ -763,6 +767,23 @@ span {
       font-size: 30px;
     }
   }
+/*skill bar qeries*/
+
+/*section 4 qeries*/   
+ @media screen and (min-width: 900px) {
+      .title-my-works {
+        font-size: 21px;
+      }
+    }
+    
+    @media screen and (min-width: 1024px) {
+      .title-my-works {
+        font-size: 30px;
+      }
+    }
+
+
+  /*section 4 qeries*/
 /* 
 strong {
   color: white;
