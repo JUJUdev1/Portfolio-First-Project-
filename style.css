@@ -233,13 +233,17 @@ span {
 /*section 2 */
 
 /* dropdown icons  */
-.fa-solid {
+.fa-solid,.fa-brands {
   color: white;
   font-size: 40px;
   text-decoration: none;
 }
 
 .fa-solid:hover {
+  color: #64f4aa;
+}
+
+.fa-brands:hover {
   color: #64f4aa;
 }
 /* dropdown icons  */
@@ -499,6 +503,27 @@ span {
   }
 }
 /*section 3 */
+
+/*section 5 */
+#my-contact {
+  background-color: #2d2f33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.title-my-contact {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.github{
+  margin:20px;
+  
+}
+/*section 5 */
 
 /* Navbar section qeries */
 @media screen and (min-width: 900px) {
@@ -784,37 +809,38 @@ span {
 
 
   /*section 4 qeries*/
+
+  /*section 5 qeries*/   
+ @media screen and (min-width: 900px) {
+  .title-my-contact {
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .title-my-contact {
+    font-size: 30px;
+  }
+}
+
+
+/*section 5 qeries*/
 /* 
 strong {
   color: white;
 }
-
 #name-left {
   font-size: larger;
   color: #a4a4a5;
   margin: 10px;
 }
-
 .fa-solid,
 .fa-brands {
   padding: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .title-my-works {
   text-align: center;
 }
-
 #my-works {
   display: flex;
   justify-content: space-evenly;
@@ -823,7 +849,6 @@ strong {
   align-items: center;
   min-height: 100vh;
 }
-
 .projet-wrap {
   display: flex;
   width: 100%;
@@ -831,15 +856,12 @@ strong {
   align-items: center;
   height: 50vh;
 }
-
 button {
   color: #ffffff;
   background-color: #25262a;
   border: none;
   font-size: x-large;
 }
-
-
 .projet {
   border: #64f4aa solid;
   border-radius: 10px;
@@ -849,53 +871,31 @@ button {
   text-align: center;
 }
 
-#my-contact {
-  background-color: #2d2f33;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.title-my-contact {
-  text-align: center;
-  padding-top: 20px;
-}
-
 button:hover {
   color: #64f4aa;
 }
-
 .button {
   border: none;
   color: white;
   background-color: #2d2f33;
 }
-
 p {
   font-size: 20px;
 }
-
 .container {
   background-color: #f9f9f9;
   width: 80%;
   border-radius: 15px;
 }
-
-
-
 a {
   text-decoration: none;
 }
-
 @media screen and (min-width: 600px) {
   .title-my-works {
     grid-column-start: 1;
     grid-column-end: 3;
   }
 }
-
 @media screen and (min-width: 600px) {
   #my-works {
     grid-template-columns: repeat(2, 50%);
