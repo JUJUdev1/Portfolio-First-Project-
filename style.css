@@ -245,7 +245,7 @@ span {
 /* dropdown icons  */
 
 /*section 4 */
-.cards {
+#cards {
   display: flex;
   margin: 4rem 5vw;
   padding: 0;
@@ -775,7 +775,7 @@ span {
         font-size: 21px;
       }
     }
-    
+
     @media screen and (min-width: 1024px) {
       .title-my-works {
         font-size: 30px;
