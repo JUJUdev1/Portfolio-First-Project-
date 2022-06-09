@@ -29,10 +29,10 @@
         </div>
         <div id="mainListDiv" class="main_list">
           <ul class="navlinks">
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#container-skills">My Skills</a></li>
-            <li><a href="#cards">My Works</a></li>
-            <li><a href="#my-contact">Contact</a></li>
+            <li><a onclick="myFunction()" href="#about-me">About Me</a></li>
+            <li><a onclick="myFunction()" href="#container-skills">My Skills</a></li>
+            <li><a onclick="myFunction()" href="#cards">My Works</a></li>
+            <li><a onclick="myFunction()" href="#my-contact">Contact</a></li>
           </ul>
         </div>
         <span class="navTrigger">
@@ -205,6 +205,7 @@
         <h1 class="title-my-contact">Contact <span>Me</span></h1>
       </div>
       <p>Feel Free To Contact Me</p>
+      <div class="icons">
       <div class="github">
         <i class="fa-solid fa-envelope"></i>
       </div>
@@ -214,37 +215,8 @@
       <div class="github">
         <i class="fa-brands fa-telegram"></i>
       </div>
-    </section>
-    <!--
-      <a href="#my-works"
-        ><i
-          class="fa-solid fa-angle-down"
-          style="display: flex; align-items: center; flex-direction: column"
-        ></i
-      ></a>
-    </section>
-    <section id="my-works">
-      <div class="title-my-works">
-        <h1>My <span>Works</span></h1>
-      </div>
-      <div class="projet-wrap">
-        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">
-          &#10094;
-        </button>
-        <div class="projet">Coming Soon 1</div>
-        <div class="projet">Coming Soon 2</div>
-        <div class="projet">Coming Soon 3</div>
-        <div class="projet">Coming Soon 4</div>
-        <div class="projet">Coming Soon 5</div>
-        <div class="projet">Coming Soon 6</div>
-        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">
-          &#10095;
-        </button>
-      </div>
-      <a href="#my-contact"><i class="fa-solid fa-angle-down"></i></a>
-    </section>
-  
-    <footer></footer> -->
+    </div>
+  </div>
     <script>
       function myFunction() {
         var x = document.getElementById("myTopnav");

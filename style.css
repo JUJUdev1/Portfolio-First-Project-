@@ -521,7 +521,10 @@ span {
 
 .github{
   margin:20px;
-  
+}
+
+.icons{
+    display: flex;
 }
 /*section 5 */
 
@@ -822,85 +825,5 @@ span {
     font-size: 30px;
   }
 }
-
-
 /*section 5 qeries*/
-/* 
-strong {
-  color: white;
-}
-#name-left {
-  font-size: larger;
-  color: #a4a4a5;
-  margin: 10px;
-}
-.fa-solid,
-.fa-brands {
-  padding: 10px;
-}
-.title-my-works {
-  text-align: center;
-}
-#my-works {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 14px 16px;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-}
-.projet-wrap {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  height: 50vh;
-}
-button {
-  color: #ffffff;
-  background-color: #25262a;
-  border: none;
-  font-size: x-large;
-}
-.projet {
-  border: #64f4aa solid;
-  border-radius: 10px;
-  background-color: #2d2f33;
-  width: 80%;
-  height: 100%;
-  text-align: center;
-}
 
-button:hover {
-  color: #64f4aa;
-}
-.button {
-  border: none;
-  color: white;
-  background-color: #2d2f33;
-}
-p {
-  font-size: 20px;
-}
-.container {
-  background-color: #f9f9f9;
-  width: 80%;
-  border-radius: 15px;
-}
-a {
-  text-decoration: none;
-}
-@media screen and (min-width: 600px) {
-  .title-my-works {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
-}
-@media screen and (min-width: 600px) {
-  #my-works {
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 100px 300px 300px 300px;
-    gap: 0;
-  }
-}
- */
